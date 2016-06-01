@@ -1,0 +1,79 @@
+/* Print styles for Moodle database activity */
+ 
+@media print {
+ 
+body {
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    color: #000;
+    font-size: 80%;
+}
+div.tabtree,
+#body-bg,
+#region-pre .block,
+#region-post .block,
+.navbutton .singlebutton,
+.path-course-view .completionprogress,
+#page-footer, 
+#page-header .headermenu, 
+#custommenu{
+    display: none !important;
+}
+#page{
+	width: 100%;
+	min-width:100%;
+	line-height: 1em;
+}
+#page-content #region-main-box .region-content {
+    width: 100% !important;
+    min-width: 0 !important;
+}
+.side-pre-only #page-content #region-main{
+    margin: 0 !important;
+}
+#page-content #region-main {
+	margin-left:190px;
+	margin-right:-190px;
+	width: 95%;
+}
+.mform fieldset {
+    border-color: #DDDDDD;
+    display: none;
+}
+.course-content ul.topics li.section {
+    border-top: 3px solid #000;
+}
+a:link, a:visited {
+    color: #000;
+}
+table {
+    font-size: 80% !important;
+    text-align: left;
+  }
+#page-block-print_reports-report body {
+    font-size: 80% !important;
+    margin:0;
+    padding:0;
+}
+
+#logo {
+    height: 50px;
+    width: 259px;
+    margin:0;
+    padding:0;
+}
+
+h1,h2,h3,h4,h5,h6 {margin: 2px; padding: 0}
+h2 {font-size: 1.15em !important}
+h4 {font-size: 1.08em !important}
+p {margin: 1px}
+
+.ilp .report-entry {margin: 0 !important; padding: 2px !important}
+
+.ilp table {width: 100%}
+
+#page-header, #navcontainer, .headermenu, .navbar, .report_state, .commands, div.ilp > form, div.ilp > span, .initialbar, .page-footer, .entry_floatright, .report-entry img, #left-studentinfo,
+#middle-studentinfo img, #middle-studentinfo > form, #middle-studentinfo > div.percentagebar {display:none !important}
+
+}

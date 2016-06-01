@@ -1,0 +1,283 @@
+/********************************************************
+**
+** Theme name: Lewisham College
+** Creation Date: September 2011
+** Author: ULCC
+** Author URI: http://www.ulcc.ac.uk
+**
+*********************************************************/
+
+html {padding: 0; margin: 0;background: transparent;font-family: Verdana, Arial, Helvetica, sans-serif !important; }
+body {margin: 0 auto; padding: 0; width: 100%;background: white;color: #333333; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: .845em;}
+a img { border: none;}
+hr{color: #333333;background-color: #333333;height: 2px;}
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,dl,input,textarea {font-family: Verdana, Arial, Helvetica, sans-serif;}
+ul, ol { margin: 0 0 0 30px;}
+
+a{text-decoration: none;}
+a:link {color: #0685b8;}
+a:visited {color: #0685b8;}
+a:hover {color: #000000;}
+a:active {color: #0685b8;}
+.addcoursebutton .singlebutton {text-align: center;} 
+#page-content #region-post a, #page-content #region-pre a{color: #0685b8;}
+#page-content #region-post a:hover,#page-content #region-pre a:hover {color: #000000;}
+
+a.autolink:link, a.autolink:visited { background: #DDDDDD; color: #000000;}
+
+h1, h2, h3, h4, h5, h6 {color: #4D4D4D; } 
+h2.headingblock {margin-top: 0;padding: 4px 0;text-align: left;font-size: 2em;border: none;font-weight: normal;}
+#page-header {height: 190px; }
+#page-header #page-header-wrapper {height: 150px; background: url([[pix:theme|header-bg]]) right no-repeat ; }
+#page-header .headermenu  { margin-top: 5px; float: none; position:absolute; top:0; right:0;}
+
+/*--- Custom Top Navigation ---*/
+
+#navcontainer { position: absolute; top: 105px; left: 225px; height: 35px; font-size: 1.15em; font-weight: bold; z-index: 0; margin:0; padding:0 }
+#navcontainer ul { border: 0; margin: 0; padding: 0; list-style-type: none; text-align: center; }
+#navcontainer ul li { display: block; float: left; text-align: center; padding: 0; margin: 0; border-top: 1px solid #fff; border-right: 1px solid #fff; border-left: 1px solid #fff; }
+#navcontainer ul li a{border-top-left-radius: 3px;border-top-right-radius: 3px;border-width: 1px 1px medium;color: #FFFFFF;font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: bold;line-height: 1em;margin: 0 ;padding: 10px;text-align: center;text-decoration: none;text-shadow: 0 1px 2px #666666;width: auto; border: 0;  display: block;}
+#navcontainer ul li a:hover { text-decoration: underline; } 
+#navcontainer ul li.home { border-left: none; }
+#navcontainer ul li.home a, #navcontainer ul li.home a:hover { background: #940092 url([[pix:theme|nav_hover_rust]]) repeat-x; }
+#navcontainer ul li.courses a, #navcontainer ul li.courses a:hover { background: #FECB0E url([[pix:theme|nav_hover_yellow]]) repeat-x;}
+#navcontainer ul li.learning a, #navcontainer ul li.learning a:hover { color: #fff; background: #E98201 url([[pix:theme|nav_hover_orange]]) repeat-x; }
+#navcontainer ul li.support a , #navcontainer ul li.support a:hover { color: #fff; background: #0142A8 url([[pix:theme|nav_hover_blue]]) repeat-x; }
+#navcontainer ul li.getinvolved a, #navcontainer ul li.getinvolved a:hover { color: #fff; background: #E33301 url([[pix:theme|nav_hover_red]]) repeat-x; }
+#navcontainer ul li.help a, #navcontainer ul li.help a:hover { color: #fff; background: #6C9944 url([[pix:theme|nav_hover_green]]) repeat-x; }
+#navcontainer ul li.induction a, #navcontainer ul li.induction a:hover { color: #fff; background: url([[pix:theme|nav_hover_pink]]) repeat-x; }
+
+/* Breadcrumb Navbar
+-----------------------*/
+.navbar { padding: 10px 10px 0 30px;}
+
+/* colour and size of breadcrumb arrows */
+.breadcrumb .sep {color: #0685b8;}
+.breadcrumb li a {color: #0685b8;}
+.breadcrumb li a:hover {color: #000000;}
+
+/* Content
+-----------------------*/
+/* Defining fluid or fixed theme.. for fluid theme change width to 100%*/
+#page {width: 95%; margin: auto; min-width: 1000px; font-size: .9em;}
+#page-content {float: left; width: 97%;margin-left: 30px}
+.sitetopic{padding: 0 20px 20px 20px;}
+#page-site-index #profilename h2{padding: 20px 10px 0px 20px; } 
+#page-login-index #region-main {border:0}
+
+/* Headings 
+----------------------*/
+h2.main, h3.main, h4.main {text-align: left;}
+
+
+/* Sideblocks
+-----------------------*/ 
+#region-pre .block{margin: 0 10px 10px 0;}
+#region-post .block{margin: 0 0 10px 10px;}
+.block {background: #fff; border: 1px solid #eeeeee; -moz-border-radius: 3px;border-radius: 3px;}
+.block .header { background: url([[pix:theme|sideblockheaderbg]]) repeat-x bottom;  padding: 10px 10px 10px 0;}
+.block .header h2{ font-size: 1.2em; margin: 0 0 4px 0;vertical-align: top; padding: 0 0 0 10px;}
+.block .header .title {font-size: 1em; font-weight:bold; padding: 0 10px 0 0; display: block; }
+.block .header .title .block_action { margin: 2px 0;}
+.block .header .title .block_action input {background: #fff;}
+.block .content {border: 0;padding: 10px;}
+.commands {padding: 5px 0 0 10px;}
+.commands a{padding: 3px 10px 3px 3px;}
+.block .header .block_action input { margin: 2px 0 0 5px;}
+ 
+.block_settings_navigation_tree .content .footer {text-align: center;}
+.block_settings_navigation_tree .content .footer .adminsearchform {margin-left: 5%;width: 90%;}
+.block_settings_navigation_tree .content .footer .adminsearchform #adminsearchquery {width: 95%;}
+ 
+/* Calendar block
+-----------------------*/
+ .path-calendar .maincalendar { margin: 10px 0;}
+.minicalendarblock h3{font-size: 1em;}
+.block_calendar_month .content .minicalendar , .block .minicalendar{font-size: 0.9em;border-collapse: separate; border-spacing: 1px !important;}
+.block_calendar_month .content .calendar-controls a {font-weight: bold;}
+.block_calendar_month .content .minicalendar td {border-color: #FFF;}
+.block_calendar_month .content .minicalendar .day, .block .minicalendar .day{color: #000;border: 1px solid #ccc;}
+.block_calendar_month .content .minicalendar .today, .block .minicalendar .today {border: 2px solid #FF0000;}
+.block_calendar_month .content .minicalendar .weekdays th {border-width: 0;font-weight: bold;color: #000;}
+.block_calendar_month .content .minicalendar .weekdays abbr {border-width: 0;text-decoration: none;}
+
+/* RSS block
+-----------------------*/
+.block_rss_client .list li{padding: 2px 5px 10px 5px;}
+
+#usersettings p{margin: 0; padding: 0}
+
+/* Footer
+-----------------------*/
+#page-footer {margin: 10px 0 10px 0px; border-top: 5px solid #ae1010; min-width: 50px; }
+#page-footer .powered{padding: 15px 10px; float:right}
+#page-footer .footer-left{padding: 15px 10px; }
+
+/* Admin
+-----------------------*/
+#adminsettings .form-item .form-label {font-weight: bold;}
+#adminsettings .form-label .form-shortname { color: #777777;font-size: 0.8em;}
+#adminsettings .form-item {clear: both; margin: 1em 0;}
+.generalbox{border: none;}
+
+/* Page Layout
+-----------------------*/
+#region-main {background: #FFFFFF;-moz-border-radius: 3px;border-radius: 3px; border: 1px solid #eeeeee; padding:0 10px;}
+.side-pre-only #page-content #region-main-box #region-post-box #region-main-wrap #region-main {padding: 20px;}
+/* @group No Blocks */
+
+.content-only #page-content #region-main-box {margin-left: 0px;}
+.content-only #page-content #region-main-box #region-post-box {margin-left: 0px;}
+.content-only #page-content #region-main-box #region-post-box #region-main-wrap #region-main {margin-left: 0px;}
+.content-only #page-content #region-main-box #region-post-box #region-pre {width: 0px;}
+.content-only #page-content #region-main-box #region-post-box #region-post {width: 0px;}
+
+/* Login page
+-----------------------*/
+#page-login-index #region-main{background: none}
+#page-login-index #region-main .loginpanel{background: #FFFFFF;-moz-border-radius: 5px;border-radius: 5px; padding:0; border: 1px solid #E9E9E9;}
+
+/* Course
+---------------------------*/
+.course-content ul.topics li.section { margin: 0 0 10px 0;padding: 0 10px;}
+.course-content ul.topics li.section.current { background: #efefef; }
+.course ul.section { margin: 5px 0;} 
+.course-content .single-section .section-navigation .title {font-size:0.9em; line-height: 20px; font-weight:normal;}
+.course-content .single-section .section-navigation .mdl-left {font-size:0.7em; line-height: 20px;}
+.course-content .single-section .section-navigation .mdl-right{font-size:0.7em; line-height: 20px;}
+.course-content .section.main {border: 0;}
+.course-content ul.topics li.section {border-top: 3px solid #E5BFE5;}
+.course-content ul.topics li.section .content {	margin:0; padding: 5px 0;}
+.course-content .section li.activity{border-bottom: 1px dotted #cccccc; padding: 5px 0;}
+.course-content ul.topics li.section .left {font-size: 0; padding: 15px 0 0 0;}
+.mod-indent-1 {	margin-left:20px;padding:2px 0;}
+.categorylist {	border-bottom:1px dotted #CCCCCC;}
+.categorylist .category {padding:5px 0 0 0;}
+#page-course-category .generalbox {width:100%;}
+#movecourses .generalbox{border:0;}
+#movecourses .generalbox td{border-bottom: 1px dotted #ccc;}
+.mform .fitem .fitemtitle {font-weight:bold;}
+.path-course-view li.activity span.autocompletion, .path-course-view li.activity form.togglecompletion { right: -0px;}
+#page-course-view-topics #region-main p,
+#page-course-view-single #region-main p{margin: 1em 0;}
+.coursebox{padding: 10px; margin:0;}
+.path-course-view .headingblock {margin-bottom: 0;}
+#switchcategory select, #movecourses select{width: 100%;}
+a.dimmed, a.dimmed:link, a.dimmed:visited, a.dimmed_text, a.dimmed_text:link, a.dimmed_text:visited, .dimmed_text, .dimmed_text a, .dimmed_text a:link, .dimmed_text a:visited, .usersuspended, .usersuspended a, .usersuspended a:link, .usersuspended a:visited, .dimmed_category, .dimmed_category a {color: #AAAAAA; opacity: 1;}
+
+/*Course Headings ***/
+#page-course-view-topics #region-main h1,
+#page-course-view-topics #region-main h2,
+#page-course-view-topics #region-main h3,
+#page-course-view-topics #region-main h4
+#page-course-view-topics #region-main h5{font-weight: normal; color: #333333; padding: 10px 0;} 
+#page-course-view-topics #region-main h1{ font-size: 2em; } 
+#page-course-view-topics #region-main h2{ font-size: 1.8em; padding: 10px;} 
+#page-course-view-topics #region-main h3{font-size: 1.5em;} 
+#page-course-view-topics #region-main h4{font-size: 1.3em; } 
+#page-course-view-topics #region-main h5{font-size: 1.1em;} 
+
+/* Navigation Menu
+---------------------------*/
+.block_yui_acc_menu { margin: 0 0 10px 0;}
+
+/* Book Module
+---------------------------*/
+.mod_book .book_toc_numbered {
+    font-size: 1em;
+}
+/* Chat Module
+---------------------------*/
+#page-mod-chat-gui_basic #messages {margin: 10px 0;}
+.path-mod-chat.pagelayout-embedded #content{	text-align: left;}
+#page-mod-chat-gui_header_js-chatinput #content{	background: #660066;color: #fff;padding: 10px;}
+.path-mod-chat .generaltable {width: auto;}
+#page-mod-chat-gui_header_js-users {	background: #f9f9f9 !important;}
+#page-mod-chat-gui_header_js-users #page {min-width: 100px;}
+.mod-chat-gui_header_js  {font-family: verdana, sans-serif !important;	font-size: .8em;}
+img.userpicture{border-radius: 3px;	box-shadow: 0 1px 2px #ccc;	border: 1px solid #ccc;}
+.text{background: #f9f9f9;font-family: verdana !important;}
+table.chat-event td.text, .chat-event{	font-family:verdana !important;	font-size: .8em;}
+
+/* Messages
+---------------------------*/
+.message{padding: 10px 0;}
+#usergroupform select{width: 100%;}
+
+/* Glossary 
+---------------------------*/
+#page-mod-glossary-view table.glossarycategoryheader th{background: #ddd;padding: 0 10px; }
+#page-mod-glossary-view table.glossarycategoryheader { width: 100%;margin: 5px 0;}
+.glossarycategoryheader th h2.main  {padding:0 !important;}
+#page-mod-glossary-view .no-overflow, #page-mod-glossary-view .concept h3 {width: 100%;}
+#page-mod-glossary-view .entrylowersection {border-bottom:1px dotted #ccc; margin: 5px 0;}
+
+/* Feedback
+---------------------------*/
+div.feedback_item_number_left, div.feedback_item_left {font-weight: bold; padding: 0 10px 0 0;}
+.feedback_item_presentation_left{padding: 10px 0;}
+
+/* Page layout
+---------------------------*/
+
+#page-content #region-main-box {
+    left: 210px;
+/* Width of left sideblock */
+}
+
+#page-content #region-post-box {
+    margin-left: -420px;
+/* Twice width of left sideblock */
+  padding-top: 5px;
+}
+
+#page-content #region-main {
+    margin-left: 420px;
+/* Twice width of left sideblock */
+  padding: 0 15px 15px 15px;
+/* Padding around middle column */
+}
+
+#page-content #region-pre {
+    left: 210px;
+/* Width of left sideblock */
+  width: 210px;
+/* Width of left sideblock */
+}
+
+#page-content #region-post {
+    width: 210px;
+/* Width of right sideblock */
+}
+
+#page-content #region-main-box .region-content {
+    padding: 0;
+}
+
+/** Only side pre **/
+
+.side-pre-only #page-content #region-post-box {
+    margin-left: -210px;
+}
+
+.side-pre-only #page-content #region-main {
+    margin-left: 210px;
+}
+
+/** Only side post **/
+
+.side-post-only #page-content #region-post-box {
+    margin-left: -210px;
+}
+
+.side-post-only #page-content #region-main {
+    margin-left: 210px;
+}
+
+.has_dock.side-post-only .page-middle #region-main-box #region-post-box #region-main-wrap #region-main {
+    margin-left: 210px;
+}
+
+#page-site-index .no-overflow {
+    overflow:visible; 
+}

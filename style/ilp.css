@@ -1,0 +1,24 @@
+/*
+* @copyright &copy; 2011 University of London Computer Centre
+* @author http://www.ulcc.ac.uk, http://moodle.ulcc.ac.uk
+* @license http://www.gnu.org/copyleft/gpl.html GNU Public License
+* @package ILP
+*/
+
+/*** Lewisham Specific ***/
+
+#ilp-student_info-overview input.student_info_edit {position:fixed; top:220px; right:120px; width:80px}
+
+.attendance-green { background-color:#99FF99; }
+.attendance-red { background-color:#FF6666; }
+.attendance-amber { background-color:#FFD966; }
+
+#ilp-profile-attendance td, #ilp-profile-attendance th {padding:3px; text-align:center;}
+#ilp-profile-attendance td.rb, #ilp-profile-attendance th.rb {border-right:3px solid #fff; width:65px}
+#ilp-profile-attendance td { margin-left:2px; margin-right:2px;}
+
+#blocks-ilp-templates-custom-attendance { margin:0; padding: 2px; }
+
+#ilp-attendance-grid {font-size:0.75em;}
+.initialbar {padding: 5px 0 10px 0;}
+

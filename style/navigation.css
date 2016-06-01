@@ -1,0 +1,106 @@
+/*
+
+Course menu bars - Pink
+Date: July 2011
+
+Dark  - #D90E70
+Light  - #E65D9F
+Lighter - #FAE2EE
+
+*/
+
+.block_yui_acc_menu .header {
+	display:none;
+}
+.block_yui_acc_menu .content {
+	border:none;
+	padding:0;
+	margin:0;
+}
+.block_yui_acc_menu .yui-accordionview div.yui-accordion-content {
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+}
+.block_yui_acc_menu .hidden {
+	visibility: hidden;
+	position: absolute;
+}
+.block_yui_acc_menu .almosthidden {
+	position: absolute;
+	left: -9999px;
+	z-index: -10;
+}
+.block_yui_acc_menu .yui-accordionview {
+	border-bottom: 2px solid #ffffff;
+}
+.block_yui_acc_menu .yui-accordionview li.yui-accordion-panel {
+	display: inline;
+}
+.block_yui_acc_menu ul.yui-accordionview ul.yui-accordionview {
+    zoom: 1;
+}
+.block_yui_acc_menu .yui-accordionview li.yui-accordion-panel a.yui-accordion-toggle {
+	display: block;
+	border: none;
+	border-bottom:2px solid #ffffff;
+	padding: 0.5em;
+	padding: 5px 0 5px 0.5em;
+	font-weight: bold;
+	background:#D90E70;
+	color: #fff !important;
+	text-decoration: none;
+	position: relative;
+	cursor: pointer;
+}
+.block_yui_acc_menu .yui-accordionview li.yui-accordion-panel a.yui-accordion-toggle:hover {
+	background-position: 0 -1300px;
+	background: #E65D9F;
+	color: #fff !important;
+}
+.block_yui_acc_menu .yui-accordionview li.yui-accordion-panel a.yui-accordion-toggle.active {
+	background-position: 0 -1400px;
+	border-bottom: 2px solid #ffffff;
+	background: #E65D9F;
+	color: #fff !important;
+}
+.block_yui_acc_menu .yui-accordionview li.yui-accordion-panel a.yui-accordion-toggle.active:hover {
+	background-position: 0 -1400px;
+}
+.block_yui_acc_menu .yui-accordion-content {
+	border: none;
+    _zoom: 1;
+}
+.block_yui_acc_menu .yui-accordionview li.yui-accordion-panel a.yui-accordion-toggle:focus {
+	text-decoration: none;
+	font-weight: bold;
+}
+.block_yui_acc_menu .yui-accordionview li.yui-accordion-panel a.yui-accordion-toggle.activepanel {
+	text-decoration: none;
+	font-weight: bold;
+}
+.block_yui_acc_menu ul {
+	list-style-type: none;
+	margin:0;
+	padding:0;
+}
+.block_yui_acc_menu #yui-course-menu li li{
+	list-style-type: none;
+	padding:5px 5px 5px 10px;	
+	background: #FAE2EE !important;
+	color: #D90E70;
+	line-height:1.2em;
+	border-bottom: 2px solid #fff;
+}
+.block_yui_acc_menu #yui-course-menu li li a{
+	background: #FAE2EE !important;
+	color: #D90E70 !important;
+}
+.block_yui_acc_menu #yui-course-menu li li a:hover{
+	color: #333 !important;
+}
+/** hr **/
+
+.course-content ul.topics li.section {
+    border-top: 3px solid #D90E70;
+}
