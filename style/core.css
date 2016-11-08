@@ -139,6 +139,7 @@ h2.main, h3.main, h4.main {text-align: left;}
 
 /* Course
 ---------------------------*/
+h1.course-title {font-size: 1.6em; line-height: 1.4; margin: 10px 15px 20px; text-align: center; font-weight: normal;}
 .course-content ul.topics li.section { margin: 0 0 10px 0;padding: 0 10px;}
 .course-content ul.topics li.section.current { background: #efefef; }
 .course ul.section { margin: 5px 0;} 
