@@ -282,3 +282,8 @@ div.feedback_item_number_left, div.feedback_item_left {font-weight: bold; paddin
 #page-site-index .no-overflow {
     overflow:visible; 
 }
+
+.hidden
+{
+    display:none !important;
+}
